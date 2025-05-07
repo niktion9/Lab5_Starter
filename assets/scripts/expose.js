@@ -37,7 +37,7 @@ volumeCtrls.addEventListener('input', () => {
 });
 
 playButton.addEventListener('click', () => {
-	hornAudio.play();
+	hornSound.play();
     	if (hornSelect.value === 'party-horn') {
       		jsConfetti.addConfetti();
     	}
